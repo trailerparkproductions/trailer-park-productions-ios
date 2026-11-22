@@ -13,6 +13,11 @@ targets:
       path: Info.plist
       properties:
         CFBundleDisplayName: Trailer Park Productions
+        CFBundleIcons:
+          CFBundlePrimaryIcon:
+            CFBundleIconName: AppIcon
+            CFBundleIconFiles:
+              - AppIcon
         UILaunchStoryboardName: ""
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
